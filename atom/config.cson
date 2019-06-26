@@ -1,0 +1,26 @@
+"*":
+  core:
+    closeEmptyWindows: false
+    destroyEmptyPanes: false
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 16
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "9ef545c1-2498-4082-9595-7e8bddcb1042"
+  "fuzzy-finder":
+    scoringSystem: "fast"
+    useRipGrep: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
+    useEslint: true
+  "project-viewer":
+    disclaimer:
+      v131: false
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
