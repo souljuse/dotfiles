@@ -11,7 +11,7 @@ alias ga='git add -u'
 alias gaa='git add-remove-all'
 alias gap='git add-interactive'
 
-alias gp='git push'
+alias ggp='git push'
 
 alias gc='git commit -v'
 alias gc!='git commit --amend -v --date="$(date)"'
@@ -49,9 +49,6 @@ alias gs='git status-diff'
 alias gst='git status'
 alias gd='git diff --ignore-space-at-eol -b -w --ignore-blank-lines'
 
-alias gitx='tig --all'
-
 function gbd() {
   git diff --ignore-space-at-eol -b -w --ignore-blank-lines $(git merge-base $1 HEAD) $1
 }
-

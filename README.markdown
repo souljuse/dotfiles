@@ -6,6 +6,7 @@
 - `cd ~/.dotfiles`
 - `brew bundle`
 - `rake install`
+- `apm install --packages-file ./atom/package.list`
 
 The install rake task will symlink the appropriate files in `.dotfiles` to your
 home directory. Everything is configured and tweaked within `~/.dotfiles`,
@@ -41,4 +42,3 @@ There's a few special files in the hierarchy.
 
 I forked [Zach Holman](http://github.com/holman)' excellent
 [dotfiles](http://github.com/ryanb/dotfiles).
-
