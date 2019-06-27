@@ -6,6 +6,7 @@
 - `cd ~/.dotfiles`
 - `brew bundle`
 - `rake install`
+- `pg_ctl -D /usr/local/var/postgres start && brew services start postgresql`
 - `apm install --packages-file ./atom/package.list`
 
 The install rake task will symlink the appropriate files in `.dotfiles` to your

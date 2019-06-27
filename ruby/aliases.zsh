@@ -3,10 +3,10 @@ alias bi="b install"
 alias bo="b open"
 alias bs="b show"
 alias bu="b update"
-
 alias -g rc="rails console"
 alias rs="rails server"
 alias rg="rails g"
+alias rsw="bundle exec rails server webrick"
 
 alias rgco="rg controller"
 alias rgmo="rg model"
