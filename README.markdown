@@ -6,6 +6,7 @@
 - `cd ~/.dotfiles`
 - `brew bundle`
 - `rake install`
+- `git config --global core.editor "atom --wait"`
 - `pg_ctl -D /usr/local/var/postgres start && brew services start postgresql`
 - `apm install --packages-file ./atom/package.list`
 

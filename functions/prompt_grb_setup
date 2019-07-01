@@ -292,15 +292,15 @@ prompt_wunjo_scm_branch() {
 
     local -a dirty
     if ! zgit_isworktreeclean; then
-      dirty+='⚡'
+      dirty+=' ⚡'
     fi
 
     if zgit_hasunmerged; then
-      dirty+='🌤'
+      dirty+=' 🌤'
     fi
 
     if zgit_hasuntracked; then
-      dirty+='☂'
+      dirty+=' ☂️'
     fi
 
     if [ $#dirty -gt 0 ]; then
