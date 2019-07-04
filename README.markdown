@@ -9,6 +9,7 @@
 - `git config --global core.editor "atom --wait"`
 - `pg_ctl -D /usr/local/var/postgres start && brew services start postgresql`
 - `apm install --packages-file ./atom/package.list`
+- `brew tap heroku/brew && brew install heroku`
 
 The install rake task will symlink the appropriate files in `.dotfiles` to your
 home directory. Everything is configured and tweaked within `~/.dotfiles`,

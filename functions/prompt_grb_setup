@@ -287,20 +287,20 @@ prompt_wunjo_scm_branch() {
 
   if zgit_inworktree; then
     if ! zgit_isindexclean; then
-      echo -n "$pc[scm_status_staged]🌤"
+      echo -n "$pc[scm_status_staged]☁️"
     fi
 
     local -a dirty
     if ! zgit_isworktreeclean; then
-      dirty+=' ⚡'
+      dirty+='⚡'
     fi
 
     if zgit_hasunmerged; then
-      dirty+=' 🌤'
+      dirty+='🌤'
     fi
 
     if zgit_hasuntracked; then
-      dirty+=' ☂️'
+      dirty+='☂️'
     fi
 
     if [ $#dirty -gt 0 ]; then

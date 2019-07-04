@@ -20,8 +20,9 @@ alias grc='git reset HEAD^'
 alias grh='git reset HEAD --hard'
 alias grmu='git remove-untracked'
 
-alias gco='git checkout'
+alias gch='git checkout'
 alias gcm='git checkout master'
+alias gcn='git checkout -b'
 
 alias gr='git remote'
 alias grv='git remote -v'
