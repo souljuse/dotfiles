@@ -11,7 +11,7 @@ alias ga='git add -u'
 alias gaa='git add-remove-all'
 alias gap='git add-interactive'
 
-alias ggp='git push origin master'
+alias ggp='git push'
 alias ggpm='git push production master'
 
 alias gc='git commit -v -m'
