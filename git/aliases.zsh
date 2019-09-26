@@ -1,4 +1,5 @@
 alias g='git'
+alias be="bundle exec"
 
 alias gf='git fetch --prune'
 alias gff='git fetch --prune --all'
