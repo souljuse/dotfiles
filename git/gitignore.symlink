@@ -11,6 +11,6 @@ public/system
 .powder
 .rvmrc
 .plumber-pane
-bin/stubs/*
+bin/stubs
 node_modules/*
 yarn-error.log

@@ -62,7 +62,7 @@
   untracked = red
 
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = .gitignore
 	editor = atom --wait
 
 [diff]
