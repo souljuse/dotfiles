@@ -12,6 +12,7 @@ alias gap='git add-interactive'
 
 alias ggp='git push'
 alias ggpm='git push production master'
+alias ggps='git push --set-upstream origin'
 
 alias gc='git commit -v -m'
 alias gc!='git commit --amend -v --date="$(date)"'
