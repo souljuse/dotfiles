@@ -1,0 +1,10 @@
+'body':
+  'shift-cmd right': 'window:focus-pane-on-right'
+  'shift-cmd left': 'window:focus-pane-on-left'
+  'cmd-shift }': 'pane:split-right-and-copy-active-item'
+  'cmd-shift {': 'pane:split-left-and-copy-active-item'
+'atom-text-editor':
+  'shift-cmd-i': 'editor:auto-indent'
+  'ctrl-cmd-d': 'editor:delete-line'
+'.platform-darwin atom-text-editor':
+  'ctrl-cmd-c': 'bracket-matcher:select-inside-brackets'

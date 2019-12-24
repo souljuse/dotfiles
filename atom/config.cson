@@ -1,26 +1,69 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "1db34cf2-37fa-4753-a4c6-63b09f7dd608"
+      "linter-rubocop":
+        command: "rubocop"
+    js:
+      disabled: true
+    jsx:
+      disabled: true
+    ruby:
+      beautify_on_save: true
+      default_beautifier: "Ruby Beautify"
+      rubocop_path: "/Users/souljuse/.rbenv/shims/rubocop"
+  "atom-typescript":
+    showSemanticView: true
+  "bracket-matcher":
+    alwaysSkipClosingPairs: true
+    highlightMatchingLineNumber: true
   core:
-    closeEmptyWindows: false
-    destroyEmptyPanes: false
+    disabledPackages: [
+      "atom-beautify"
+      "rubocop-auto-correct"
+      "github"
+      "open-on-github"
+    ]
     telemetryConsent: "limited"
   editor:
-    fontSize: 16
+    fontSize: 13
     showIndentGuide: true
     showInvisibles: true
-    softWrap: true
   "exception-reporting":
-    userId: "9ef545c1-2498-4082-9595-7e8bddcb1042"
-  "fuzzy-finder":
-    scoringSystem: "fast"
-    useRipGrep: true
+    userId: "f3db5996-9e08-4b1f-b904-00d26be144d2"
+  "git-diff":
+    showIconsInEditorGutter: true
+  "ide-typescript":
+    ignoreFlow: false
+  "linter-rubocop":
+    fixOnSave: true
+    useBundler: true
+  "linter-ui-default":
+    panelHeight: 218
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
       showInStatusBar: true
     useEslint: true
-  "project-viewer":
-    disclaimer:
-      v131: false
-  "tree-view": {}
+  rspec:
+    command: "bundle exec rspec"
+  "rubocop-auto-correct":
+    autoRun: true
+    debugMode: true
+    rubocopCommandPath: "/Users/souljuse/.rbenv/shims/rubocop"
+  "ruby-test":
+    rspecAllCommand: "bundle exec rspec --tty spec"
+    specFramework: "rspec"
+  "webbox-color":
+    fillColorAsBackground: false
   welcome:
     showOnStartup: false
+".gemfile.ruby.source":
+  editor:
+    autoIndentOnPaste: true
+".ruby.source":
+  editor:
+    autoIndentOnPaste: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
