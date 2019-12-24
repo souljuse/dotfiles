@@ -23,9 +23,12 @@ alias dbrb="be rake db:rollback"
 alias -g rds="be rake db:seed"
 
 alias rspec="be rspec"
-alias sprsp="./bin/rspec"
+alias sspec="./bin/rspec"
 
 alias devlog="tail -f log/development.log"
 alias fs="foreman start"
 alias fr="foreman run"
 alias zs="zeus start"
+
+alias rbc="rubocop"
+alias rbca="rubocop -a"
