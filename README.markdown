@@ -13,6 +13,7 @@
   <!-- binstubs to avoid typing bundle exec -->
 - `brew tap heroku/brew && brew install heroku`
 - in .ssh `chmod 600 id_rsa id_rsa.pub known_hosts config`
+- copy atom keymap config `cp atom/keymap.cson ~/.atom/`
 
 The install rake task will symlink the appropriate files in `.dotfiles` to your
 home directory. Everything is configured and tweaked within `~/.dotfiles`,
