@@ -31,7 +31,7 @@ alias grmv='git remote rename'
 alias grrm='git remote remove'
 alias grset='git remote set-url'
 alias grup='git remote update'
-alias zshconf="atom ~/.zshrc"
+alias zshconf="atom ~/.dotfiles"
 
 alias grb='git rebase'
 alias grbi='git rebase-interactive'
