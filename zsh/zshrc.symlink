@@ -47,3 +47,8 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(rbenv init -)"
 export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
 export PATH="/Users/souljuse/Library/Python/2.7/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@12/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@12/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@12/bin:$PATH"
+
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
